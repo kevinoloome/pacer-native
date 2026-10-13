@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Pacer",
+    "slug": "pacer-native",
+    "scheme": "pacer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#12181D",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#12181D"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pacer.app"
+    },
+    "android": {
+      "package": "com.pacer.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#12181D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
